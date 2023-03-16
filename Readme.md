@@ -1,3 +1,5 @@
+Instructions 
+============
 Put miamiscale04relxx in plugins folder and vicecity.map in server directory.
 
 Use MiamiScale_Init("vicecity.map"); //when it is placed in server directory.
@@ -16,5 +18,6 @@ Functions
 [true on success]SetZFor2DCoord([integer]x, [integer]y, [float]z);  
 [true on success]MiamiScale_SaveCurrentMap([string]filename);  
 
-RAM Usage by the module is approximately 50 MB.  
+Note
+-------
 Saving Map takes approximately 2 seconds.
